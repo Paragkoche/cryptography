@@ -3,9 +3,9 @@ import textwrap
 
 # get incoded text and key
 plentext = str(input("Enater the encode text :-"))
-key = input("Enater the key text 0 ~ 9 :-")
+# key = input("Enater the key text 0 ~ 9 :-")
 # kdy convert to ascii code to bin
-b = ''.join(format(ord(i), '08b') for i in key)
+b = ''.join(format(ord(i), '08b') for i in "8")
 aa = ""
 # right shift to reversh the lift shif
 for i in plentext.split("$"):
